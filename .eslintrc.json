@@ -1,0 +1,13 @@
+{
+	"extends": ["@hazmi35/eslint-config/typescript", "next/core-web-vitals"],
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"ignorePatterns": [
+		".next/**",
+		"node_modules/**"
+	],
+	"rules": {
+		"indent": "off"
+	}
+}

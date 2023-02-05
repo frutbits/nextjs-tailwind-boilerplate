@@ -1,0 +1,13 @@
+{
+  "typescript.tsdk": "node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib",
+  "files.eol": "\n",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": [
+      ".github/workflows/*.{yml,yaml}"
+    ]
+  },
+  "css.customData": [
+    ".vscode/css_custom_data.json"
+  ],
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
