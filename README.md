@@ -24,13 +24,11 @@
 1. Using pnpm
 
 ## Since this is a template, you may modify these things:
-1. GitHub Action docker build image name
+1. GitHub Action docker build image name ([this one](https://github.com/frutbits/nextjs-tailwind-boilerplate/blob/3d61f04ccd0cb93933d1bab16b3f4892d740c108/.github/workflows/build.yml#L53))
 1. Docker image name
 1. package.json
 1. README.md
 1. LICENSE
-
-### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 # Getting Started
 
