@@ -1,4 +1,4 @@
-FROM ghcr.io/hazmi35/node:18-dev-alpine as build-stage
+FROM ghcr.io/hazmi35/node:19-dev-alpine as build-stage
 
 LABEL name "nextjs-tailwind-boilerplate (build-stage)"
 LABEL maintainer "FrutBits Indonesia <contact@frutbits.org>"
@@ -25,7 +25,7 @@ RUN pnpm run build
 RUN pnpm prune --production
 
 # Get ready for production
-FROM ghcr.io/hazmi35/node:18-alpine
+FROM ghcr.io/hazmi35/node:19-alpine
 
 LABEL name "nextjs-tailwind-boilerplate"
 LABEL maintainer "FrutBits Indonesia <contact@frutbits.org>"
