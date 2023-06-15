@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@hazmi35/eslint-config': ^8.7.1
+  '@hazmi35/eslint-config': ^10.0.0
   '@next/font': 13.2.4
   '@types/node': 18.15.0
   '@types/react': 18.0.28
@@ -31,7 +31,7 @@ dependencies:
   typescript: 4.9.5
 
 devDependencies:
-  '@hazmi35/eslint-config': 8.7.1_mm5hb5pxwy2vhecahahc2j2lvy
+  '@hazmi35/eslint-config': 10.0.0_mm5hb5pxwy2vhecahahc2j2lvy
   '@typescript-eslint/eslint-plugin': 5.53.0_ny4s7qc6yg74faf3d6xty2ofzy
   '@typescript-eslint/parser': 5.53.0_7kw3g6rralp5ps6mg3uyzz6azm
   autoprefixer: 10.4.14_postcss@8.4.21
@@ -63,13 +63,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@hazmi35/eslint-config/8.7.1_mm5hb5pxwy2vhecahahc2j2lvy:
-    resolution: {integrity: sha512-J5RxP4DhtTXn2GeABYyN0hG/TFCklue7CvSM1U8mMwlc6Zr1FNajjdFUY+DYjwzEfaaIzWMECzURDRsaRJL4/w==}
+  /@hazmi35/eslint-config/10.0.0_mm5hb5pxwy2vhecahahc2j2lvy:
+    resolution: {integrity: sha512-OBfCTOBGhzwXJF1b6zEOxWRkRsW+HZs9JlhcHeBwDZtSDNnTLg5VSq+5fIXaNvKYCuf9CW5JcrXVC6/crxgrAA==}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': '>=5.45.1'
-      '@typescript-eslint/parser': '>=5.45.1'
-      eslint: '>=8.29.0'
-      typescript: '>=3.3.1 <5.0.0'
+      '@eslint/js': '>=8.42.0'
+      '@typescript-eslint/eslint-plugin': '>=5.59.11'
+      '@typescript-eslint/parser': '>=5.59.11'
+      eslint: '>=8.42.0'
+      typescript: '>=3.3.1 <5.1.0'
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
         optional: true
